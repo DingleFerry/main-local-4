@@ -14,7 +14,7 @@ import platMics from "../public/platMics.json";
 import holiList from "../public/holiList.json";
 // import heroes from "../public/specialMicsAllMe.json";
 import IPinfoWrapper, { IPinfo, AsnResponse } from "node-ipinfo";
-import { isKeystoreWallet } from '@ethersproject/json-wallets'; 
+import { isKeystoreWallet } from '@ethersproject/json-wallets';
 
 const Home: NextPage = () => {
   const address = useAddress();
