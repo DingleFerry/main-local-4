@@ -555,6 +555,11 @@ const Home: NextPage = () => {
                 <a><h3 className={styles.pageLink}>Submit for BL</h3></a>
               </Link>
             </div>
+            <div className={styles.pageLinkCont}>
+              <Link href="https://themushroomcolonel.editorx.io/stinky-shop">
+                <a><h3 className={styles.pageLink}>Shop</h3></a>
+              </Link>
+            </div>
             <div className={styles.pageLinkCont} onClick={reload}>
               <Link href="">
                   <a><h3 className={styles.pageLinkPink}>My Trophies</h3></a>
