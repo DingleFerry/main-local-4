@@ -61,6 +61,11 @@ const SwirledCup: NextPage = () => {
               </Link>
             </div>
             <div className={styles.pageLinkCont}>
+              <Link href="https://themushroomcolonel.editorx.io/stinky-shop">
+                <a><h3 className={styles.pageLink}>Shop</h3></a>
+              </Link>
+            </div>
+            <div className={styles.pageLinkCont}>
               <Link href="/">
                   <a><h3 className={styles.pageLink}>My Trophies</h3></a>
               </Link>
