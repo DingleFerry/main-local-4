@@ -545,14 +545,19 @@ const Home: NextPage = () => {
                 <a><h3 className={styles.pageLink}>BS</h3></a>
               </Link>
             </div>
-            <div className={styles.pageLinkCont}>
+            {/* <div className={styles.pageLinkCont}>
               <Link href="/swirled-cup">
                 <a><h3 className={styles.pageLink}>Swirled Cup</h3></a>
               </Link>
-            </div>
-            <div className={styles.pageLinkCont}>
+            </div> */}
+            {/* <div className={styles.pageLinkCont}>
               <Link href="/brownlist-submit">
                 <a><h3 className={styles.pageLink}>Submit for BL</h3></a>
+              </Link>
+            </div> */}
+            <div className={styles.pageLinkCont} onClick={reload}>
+              <Link href="">
+                  <a><h3 className={styles.pageLinkBrown}>My Trophies</h3></a>
               </Link>
             </div>
             <div className={styles.pageLinkCont}>
@@ -560,9 +565,14 @@ const Home: NextPage = () => {
                 <a><h3 className={styles.pageLink}>Shop</h3></a>
               </Link>
             </div>
-            <div className={styles.pageLinkCont} onClick={reload}>
-              <Link href="">
-                  <a><h3 className={styles.pageLinkPink}>My Trophies</h3></a>
+            <div className={styles.pageLinkCont}>
+              <Link href="/collections">
+                <a><h3 className={styles.pageLink}>Collections</h3></a>
+              </Link>
+            </div>
+            <div className={styles.pageLinkCont}>
+              <Link href="/mint">
+                <a><h3 className={styles.pageLink}>Mint!</h3></a>
               </Link>
             </div>
           </div>

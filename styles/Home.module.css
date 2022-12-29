@@ -131,7 +131,7 @@
   margin-left: 20px;
 }
 
-.pageLink, .pageLinkBrown, .pageLinkPink, .pageLinkBlue, .pageLinkGold, .pageLinkWhite{
+.pageLink, .pageLinkBrown, .pageLinkPink, .pageLinkBlue, .pageLinkGold, .pageLinkWhite, .pageLinkPurp, .pageLinkGrey{
   margin-top: 30px;
   -webkit-transition: all;
   -o-transition: all;
@@ -146,7 +146,7 @@
   font-size: 22px;
 }
 
-.pageLink:hover, .pageLinkBrown:hover, .pageLinkPink:hover, .pageLinkBlue:hover, .pageLinkGold:hover, .pageLinkWhite:hover{
+.pageLink:hover, .pageLinkBrown:hover, .pageLinkPink:hover, .pageLinkBlue:hover, .pageLinkGold:hover, .pageLinkWhite:hover, .pageLinkPurp:hover, .pageLinkGrey:hover{
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
@@ -167,6 +167,14 @@
 
 .pageLinkGold{
   background: #D68E22;
+}
+
+.pageLinkPurp{
+  background: #7A33B8;
+}
+
+.pageLinkGrey{
+  background: #999999;
 }
 
 .pageLinkWhite{
@@ -303,9 +311,6 @@
   list-style-type: none;
   margin: 0px auto !important;
   padding: 0px;
-}
-
-.hamTwitLogo{
 }
 
 .hamLinksUL li{
@@ -987,6 +992,43 @@ cursor: pointer;
   display: none;
 }
 
+
+
+
+
+/* MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT */
+/* MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT */
+/* MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT */
+/* MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT MINT */
+
+.mintTitle{
+  width: 100vw;
+  height: 100px;
+  background: #B842A0;
+}
+
+.mintTitle h1{
+  color: #f5f5f5;
+  font-size: 48px;
+  margin: 18px auto 0px;
+}
+
+/* COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS  */
+/* COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS  */
+/* COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS  */
+/* COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS COLLECTIONS  */
+
+.collTitle{
+  width: 100vw;
+  height: 100px;
+  background: #7A33B8;
+}
+
+.collTitle h1{
+  color: #f5f5f5;
+  font-size: 48px;
+  margin: 18px auto 0px;
+}
 
 
 
